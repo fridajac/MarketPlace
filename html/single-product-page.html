@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" conent="width=devide-width, initial-scale=1" />
+    <title>MarketPlace -product</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+</html>
+
+<body>
+  <header id="header">
+    <a href="../index.html">
+      <img src="../img/logo.png" class="logo" alt="logo" width="50px" />
+    </a>
+    <div>
+      <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li>
+          <a href="cart.html">
+            <img
+              src="../img/shopping-cart.png"
+              alt="shopping-cart"
+              width="50px"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="account.html"
+            ><img src="../img/account-icon.png" alt="my-account" width="55px" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="product-details" class="section-p1">
+    <div class="single-product-image">
+      <img
+        src="../img/t-shirt.jpeg"
+        alt="product photo"
+        width="70%"
+        id="Main"
+      />
+    </div>
+    <div class="single-product-details">
+      <h1 id="product-name"></h1>
+      <h2 id="price"></h2>
+      <h3 id="color"></h3>
+      <h3 id="status">Status</h3>
+      <h3 id="condition"></h3>
+      <h3 id="year-of-making"></h3>
+      <button id="to-cart-button" class="normal">Add To Cart</button>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="../img/logo.png" alt="logo" width="50px" />
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> Södra Förstadsgatan 14 21424 Malmö</p>
+      <p><strong>Phone:</strong> +4607853333</p>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a ref="#">About us</a>
+      <a ref="#">Delivery Information</a>
+      <a ref="#">Privacy Policy</a>
+      <a ref="#">Contact us</a>
+    </div>
+
+    <div class="col">
+      <h4>My account</h4>
+      <a ref="#">Sign in</a>
+      <a ref="#">Register</a>
+      <a ref="./cart.html">View Cart</a>
+      <a ref="#">Track My Order</a>
+      <a ref="#">Help</a>
+    </div>
+  </footer>
+  <script type="module" src="../js/SingleProductPage.js"></script>
+</body>
