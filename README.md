@@ -7,7 +7,7 @@
 
 ## Requirements
 
-- [npm] (https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
 
 ## Installation and usage
 
